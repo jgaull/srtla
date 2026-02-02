@@ -28,7 +28,9 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <fcntl.h>
 
+#include "compat.h"
 #include "common.h"
 
 #define PKT_LOG_SZ 256
@@ -533,10 +535,16 @@ int open_socket(conn_t *c, int quiet) {
   }
 
   // Set up the socket
-  int fd = socket(AF_INET, SOCK_DGRAM | SOCK_NONBLOCK, 0);
+  int fd = socket(AF_INET, SOCK_DGRAM, 0);
   if (fd < 0) {
     err("Failed to open a socket");
     return -1;
+  }
+
+  // Set non-blocking mode (SOCK_NONBLOCK is Linux-specific)
+  int flags = fcntl(fd, F_GETFL, 0);
+  if (flags >= 0) {
+    fcntl(fd, F_SETFL, flags | O_NONBLOCK);
   }
 
   int bufsize = SEND_BUF_SIZE;
