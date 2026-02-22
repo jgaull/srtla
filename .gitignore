@@ -1,1 +1,3 @@
 ips.txt
+node_modules/
+*.log

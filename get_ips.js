@@ -5,6 +5,7 @@ const net = require('net');
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const prompts = require('prompts');
 
 const OUTPUT_FILE = path.join(__dirname, 'ips.txt');
 const TEST_HOST = '8.8.8.8';
@@ -26,6 +27,12 @@ function getHardwarePortMap() {
   } catch {
     return {};
   }
+}
+
+function computeSubnet(ip, netmask) {
+  const ipParts = ip.split('.').map(Number);
+  const maskParts = netmask.split('.').map(Number);
+  return ipParts.map((octet, i) => octet & maskParts[i]).join('.');
 }
 
 function checkConnectivity(localIp) {
@@ -61,7 +68,7 @@ async function main() {
         !addr.internal &&
         !addr.address.startsWith('169.254.')
       ) {
-        candidates.push({ iface: ifaceName, ip: addr.address });
+        candidates.push({ iface: ifaceName, ip: addr.address, netmask: addr.netmask });
       }
     }
   }
@@ -87,19 +94,64 @@ async function main() {
   }
 
   const connected = results.filter(r => r.connected);
-  const connectedIps = connected.map(r => r.ip);
 
   console.log('');
 
-  if (connectedIps.length === 0) {
+  if (connected.length === 0) {
     console.log('No interfaces with internet connectivity found. ips.txt was not updated.');
     return;
   }
 
-  fs.writeFileSync(OUTPUT_FILE, connectedIps.join('\n') + '\n', 'utf8');
-
-  console.log(`Wrote ${connectedIps.length} IP(s) to ips.txt:`);
+  // Group connected interfaces by subnet
+  const subnetGroups = new Map();
   for (const r of connected) {
+    const subnet = computeSubnet(r.ip, r.netmask);
+    const key = `${subnet}/${r.netmask}`;
+    if (!subnetGroups.has(key)) {
+      subnetGroups.set(key, []);
+    }
+    subnetGroups.get(key).push(r);
+  }
+
+  // Resolve conflicts where multiple interfaces share a subnet
+  const selectedIps = [];
+  for (const [subnet, group] of subnetGroups) {
+    if (group.length === 1) {
+      selectedIps.push(group[0]);
+      continue;
+    }
+
+    console.log(`Multiple connections found on subnet ${subnet}:`);
+    for (const r of group) {
+      const typeStr = r.type ? ` [${r.type}]` : '';
+      console.log(`  ${r.iface}${typeStr} — ${r.ip}`);
+    }
+    console.log('srtla only supports one connection per subnet.\n');
+
+    const { chosen } = await prompts({
+      type: 'select',
+      name: 'chosen',
+      message: 'Which connection do you want to use?',
+      choices: group.map(r => ({
+        title: `${r.type || r.iface} — ${r.ip}`,
+        description: r.type ? r.iface : undefined,
+        value: r,
+      })),
+    });
+
+    if (!chosen) {
+      console.log('Selection cancelled. ips.txt was not updated.');
+      return;
+    }
+
+    selectedIps.push(chosen);
+  }
+
+  const ips = selectedIps.map(r => r.ip);
+  fs.writeFileSync(OUTPUT_FILE, ips.join('\n') + '\n', 'utf8');
+
+  console.log(`Wrote ${ips.length} IP(s) to ips.txt:`);
+  for (const r of selectedIps) {
     const typeStr = r.type ? ` [${r.type}]` : '';
     console.log(`  ${r.ip}${typeStr}`);
   }
