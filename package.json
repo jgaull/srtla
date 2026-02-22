@@ -4,7 +4,9 @@
   "private": true,
   "description": "Helper scripts for srtla",
   "scripts": {
-    "get-ips": "node get_ips.js"
+    "get-ips": "node get_ips.js",
+    "serve": "node serve.js",
+    "start": "npm run get-ips && npm run serve"
   },
   "dependencies": {
     "prompts": "^2.4.2"
