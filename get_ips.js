@@ -82,15 +82,18 @@ async function main() {
 
   console.log(`Checking ${candidates.length} candidate interface(s) for internet connectivity...`);
 
-  const results = [];
-  for (const candidate of candidates) {
-    const type = hwPorts[candidate.iface] || '';
-    const typeStr = type ? ` [${type}]` : '';
-    const label = `  ${candidate.iface}${typeStr} (${candidate.ip})`;
-    process.stdout.write(label.padEnd(48));
-    const connected = await checkConnectivity(candidate.ip);
-    console.log(connected ? 'connected' : 'no internet');
-    results.push({ ...candidate, type, connected });
+  const results = await Promise.all(
+    candidates.map(async (candidate) => {
+      const type = hwPorts[candidate.iface] || '';
+      const connected = await checkConnectivity(candidate.ip);
+      return { ...candidate, type, connected };
+    })
+  );
+
+  for (const r of results) {
+    const typeStr = r.type ? ` [${r.type}]` : '';
+    const label = `  ${r.iface}${typeStr} (${r.ip})`;
+    console.log(label.padEnd(48) + (r.connected ? 'connected' : 'no internet'));
   }
 
   const connected = results.filter(r => r.connected);
