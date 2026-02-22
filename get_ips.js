@@ -83,10 +83,11 @@ async function main() {
     process.stdout.write(label.padEnd(48));
     const connected = await checkConnectivity(candidate.ip);
     console.log(connected ? 'connected' : 'no internet');
-    results.push({ ...candidate, connected });
+    results.push({ ...candidate, type, connected });
   }
 
-  const connectedIps = results.filter(r => r.connected).map(r => r.ip);
+  const connected = results.filter(r => r.connected);
+  const connectedIps = connected.map(r => r.ip);
 
   console.log('');
 
@@ -98,8 +99,9 @@ async function main() {
   fs.writeFileSync(OUTPUT_FILE, connectedIps.join('\n') + '\n', 'utf8');
 
   console.log(`Wrote ${connectedIps.length} IP(s) to ips.txt:`);
-  for (const ip of connectedIps) {
-    console.log(`  ${ip}`);
+  for (const r of connected) {
+    const typeStr = r.type ? ` [${r.type}]` : '';
+    console.log(`  ${r.ip}${typeStr}`);
   }
 }
 
