@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { spawn } = require('child_process');
+const { spawn, execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
@@ -32,6 +32,36 @@ function loadConfig() {
   }
 
   return config;
+}
+
+let sleepDisabled = false;
+let sudoPassword = null;
+
+function disableSleep() {
+  try {
+    execSync('sudo -S pmset -a disablesleep 1', {
+      input: sudoPassword + '\n',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    });
+    sleepDisabled = true;
+    console.log('Mac sleep disabled.');
+  } catch (err) {
+    console.error(`Warning: Failed to disable sleep: ${err.message}`);
+  }
+}
+
+function enableSleep() {
+  if (!sleepDisabled) return;
+  try {
+    execSync('sudo -S pmset -a disablesleep 0', {
+      input: sudoPassword + '\n',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    });
+    sleepDisabled = false;
+    console.log('Mac sleep re-enabled.');
+  } catch (err) {
+    console.error(`Warning: Failed to re-enable sleep: ${err.message}`);
+  }
 }
 
 function startProcess(config) {
@@ -67,6 +97,27 @@ async function main() {
     process.exit(1);
   }
 
+  if (config.sudoPassword) {
+    sudoPassword = config.sudoPassword;
+    disableSleep();
+  } else {
+    console.log('Warning: sudoPassword not set in config.json. Mac sleep prevention disabled.');
+  }
+
+  let activeChild = null;
+
+  function cleanup() {
+    if (activeChild) {
+      activeChild.kill();
+      activeChild = null;
+    }
+    enableSleep();
+    process.exit();
+  }
+
+  process.on('SIGINT', cleanup);
+  process.on('SIGTERM', cleanup);
+
   console.log(`OBS URL: srt://127.0.0.1:${config.srtInputPort}?mode=caller&streamid=[YOUR_SECRET_HERE]`);
   console.log('');
 
@@ -75,12 +126,14 @@ async function main() {
   const launch = () => {
     const startTime = Date.now();
     const child = startProcess(config);
+    activeChild = child;
 
     child.on('error', (err) => {
       console.error(`Failed to start process: ${err.message}`);
     });
 
     child.on('close', (code, signal) => {
+      activeChild = null;
       const runtime = Date.now() - startTime;
       const reason = signal ? `signal ${signal}` : `exit code ${code}`;
 
