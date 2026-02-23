@@ -1,6 +1,0 @@
-{
-  "srtOutputDomain": "your-server.com",
-  "srtOutputPort": 5000,
-  "srtInputPort": 6000,
-  "sudoPassword": "the password for your computer"
-}

@@ -1,0 +1,566 @@
+[debug] [2026-02-22T18:37:34.219Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.222Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.223Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.228Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.229Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.245Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.245Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.246Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.247Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.248Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.248Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.251Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.251Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.252Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.252Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.252Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.252Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.252Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.252Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.254Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.254Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.254Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.254Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:37:34.254Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.255Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.257Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.257Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.258Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:37:34.258Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.259Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.259Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.261Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.261Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.263Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:37:34.263Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.264Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.264Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.266Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:37:34.266Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.271Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:37:34.271Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:37:34.619Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:37:34.620Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:37:34.624Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:37:34.624Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:37:34.626Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:37:34.626Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:37:34.643Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:37:34.643Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.649Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:37:34.649Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.650Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:37:34.650Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.654Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:37:34.655Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.670Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:37:34.670Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.675Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.676Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.676Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.677Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:37:34.677Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:37:34.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.691Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:37:34.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:37:34.692Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:42.611Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:42.614Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:42.615Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:42.617Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:42.621Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.623Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.637Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.637Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.638Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.639Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.640Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.640Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.643Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.643Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.644Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.644Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:42.644Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:42.644Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.645Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.646Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.646Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.646Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.646Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:49:42.647Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.647Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.649Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.649Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.650Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:49:42.650Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.652Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.652Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.653Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.653Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.655Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:49:42.655Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.657Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.657Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.658Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:49:42.658Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.663Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:49:42.663Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:49:42.867Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:49:42.867Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:42.990Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:49:42.990Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:43.000Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:49:43.000Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:43.008Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:49:43.008Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:49:43.010Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:49:43.010Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:49:43.012Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:49:43.012Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:49:43.021Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:49:43.021Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:43.039Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:49:43.039Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:43.041Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:49:43.042Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:49:43.047Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:43.047Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:43.048Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:43.048Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:43.062Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:43.062Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:49:43.063Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:49:43.063Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:55.681Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:55.684Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:55.684Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:55.685Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:55.689Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.690Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.702Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.702Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.703Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.703Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.704Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.705Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.708Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.708Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.708Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.708Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.708Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:55.708Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:55.709Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.709Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.710Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.710Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.710Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.710Z] Checked if tokens are valid: true, expires at: 1771787418358
+[debug] [2026-02-22T18:50:55.711Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.711Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.713Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.713Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.714Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:50:55.714Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.716Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.716Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.718Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.718Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.720Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:50:55.720Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.721Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.722Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.723Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T18:50:55.723Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.728Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T18:50:55.728Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T18:50:55.965Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:50:55.965Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.072Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:50:56.072Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:50:56.074Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:50:56.074Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:50:56.076Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T18:50:56.076Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T18:50:56.099Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:50:56.099Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.104Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:50:56.104Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.104Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T18:50:56.105Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.119Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:50:56.120Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.123Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T18:50:56.123Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T18:50:56.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:56.147Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:56.148Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:56.148Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:56.149Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:56.149Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T18:50:56.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T18:50:56.151Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:09.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:09.940Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:09.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:09.942Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:09.947Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.949Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.950Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.952Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.953Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.968Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.969Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.969Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.969Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.970Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.971Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.971Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.972Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.972Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.972Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.974Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.974Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.974Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.975Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.975Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.980Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.980Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.980Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.980Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.980Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.983Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.983Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.983Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.984Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.984Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:09.985Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:09.986Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.986Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.986Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.987Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.987Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.990Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.990Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.990Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.990Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.990Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:09.996Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.996Z] Checked if tokens are valid: false, expires at: 1771787418358
+[debug] [2026-02-22T19:03:09.997Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:03:09.997Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:03:09.997Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.128Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.128Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.145Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.145Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.146Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.146Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.158Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.159Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.166Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.166Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.179Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:03:10.179Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.181Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.181Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.192Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.192Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.196Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.196Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.210Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.211Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.213Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.213Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.224Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:03:10.224Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.225Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.225Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.238Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:03:10.239Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.248Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.248Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.260Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.260Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.261Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:03:10.261Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:03:10.274Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:03:10.274Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:03:10.543Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:03:10.544Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:03:10.564Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:03:10.564Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:03:10.578Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:03:10.578Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.582Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:03:10.582Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:03:10.589Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:03:10.589Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.591Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:03:10.591Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.594Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:03:10.594Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.613Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:03:10.613Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:10.620Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:10.622Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:10.622Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:10.626Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:03:10.626Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:03:10.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:10.689Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:03:10.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:03:10.691Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:26.028Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:26.031Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:26.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:26.032Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:26.036Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.038Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.039Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.040Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.041Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.055Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.056Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.056Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.057Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.057Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.059Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.059Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.059Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.060Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.060Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.061Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.062Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.062Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.062Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.062Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.066Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.066Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.066Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.067Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.067Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.069Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.069Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.069Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.069Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.069Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.071Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:26.071Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:26.072Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.072Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.072Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.072Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.072Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.075Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.075Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.075Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.076Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.076Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.081Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.081Z] Checked if tokens are valid: false, expires at: 1771790589261
+[debug] [2026-02-22T19:53:26.082Z] > refreshing access token with scopes: []
+[debug] [2026-02-22T19:53:26.082Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-22T19:53:26.082Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.372Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.372Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.389Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.389Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.399Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.400Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.412Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.413Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.415Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.415Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.428Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:53:26.428Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.430Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.430Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.443Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.443Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.446Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.446Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.460Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.460Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.462Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.463Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.474Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:53:26.475Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.476Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.476Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.488Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T19:53:26.488Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.492Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.492Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.502Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.502Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.505Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-22T19:53:26.505Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-22T19:53:26.518Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T19:53:26.518Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T19:53:26.868Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:53:26.868Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:53:26.894Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:53:26.895Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:53:26.902Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T19:53:26.903Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T19:53:26.914Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:53:26.915Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.916Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:53:26.916Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.924Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:53:26.924Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.929Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:53:26.929Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.972Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T19:53:26.972Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.979Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T19:53:26.979Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T19:53:26.985Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:26.986Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:26.987Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:26.987Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:27.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:27.036Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T19:53:27.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T19:53:27.037Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.213Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.220Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.222Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.225Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.231Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.232Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.245Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.245Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.246Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.247Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.248Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.249Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.252Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.252Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.253Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.253Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.253Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.254Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.254Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.255Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.255Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.256Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.256Z] Checked if tokens are valid: true, expires at: 1771793605505
+[debug] [2026-02-22T20:06:54.256Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.256Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.259Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.259Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.260Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T20:06:54.261Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.262Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.262Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.263Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.264Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.266Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T20:06:54.266Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.267Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.268Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.269Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-22T20:06:54.269Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.274Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-22T20:06:54.274Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-22T20:06:54.742Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T20:06:54.742Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T20:06:54.746Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T20:06:54.747Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T20:06:54.758Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-22T20:06:54.758Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-22T20:06:54.772Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T20:06:54.772Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.792Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T20:06:54.792Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.793Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T20:06:54.793Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.794Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-22T20:06:54.794Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.795Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T20:06:54.795Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.798Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-22T20:06:54.798Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-22T20:06:54.851Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.851Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.852Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.856Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-22T20:06:54.857Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-22T20:06:54.857Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:52.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:52.479Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:52.480Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:52.480Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:52.484Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.485Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.499Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.500Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.500Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.501Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.502Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.502Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.505Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.506Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.506Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.506Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.506Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:52.506Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:52.507Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.507Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.508Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.508Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.508Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.508Z] Checked if tokens are valid: true, expires at: 1771809757531
+[debug] [2026-02-23T00:27:52.509Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.509Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.511Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.511Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.512Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-23T00:27:52.512Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.514Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.514Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.515Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.515Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.518Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-23T00:27:52.518Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.519Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.519Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.521Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-23T00:27:52.521Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.526Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [none]
+[debug] [2026-02-23T00:27:52.526Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com x-goog-quota-user=projects/editing-assistant
+[debug] [2026-02-23T00:27:52.676Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-23T00:27:52.676Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-23T00:27:52.870Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-23T00:27:52.871Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-23T00:27:52.873Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com 403
+[debug] [2026-02-23T00:27:52.873Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseio.com [omitted]
+[debug] [2026-02-23T00:27:52.938Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-23T00:27:52.939Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-23T00:27:53.049Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-23T00:27:53.049Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-23T00:27:53.055Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-23T00:27:53.055Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-23T00:27:53.085Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:53.085Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:53.088Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:53.088Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:53.655Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-23T00:27:53.656Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-23T00:27:54.859Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-23T00:27:54.860Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-23T00:27:55.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:55.533Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:55.535Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-02-23T00:27:55.535Z] > authorizing via signed-in user (jon@bikecurious.live)
+[debug] [2026-02-23T00:27:55.859Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-23T00:27:55.859Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/editing-assistant/services/firebasedataconnect.googleapis.com [omitted]
